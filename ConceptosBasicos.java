@@ -26,7 +26,22 @@ public class ConceptosBasicos {
         miBocho.setColor(Color.blue);
         System.out.println(miBocho);
         
-        //Tarea.- Programar los objetos miAcura y miMustang
+        
+        Automovil miAcura= new Automovil();
+        miAcura.setMarca("Acura");
+        miAcura.setSubMarca("NSX");
+        miAcura.setModelo(2013);
+        miAcura.setColor(Color.gray);
+        System.out.println(miAcura);
+       
+        Automovil miMustang= new Automovil();
+        miMustang.setMarca("Ford");
+        miMustang.setSubMarca("Mustan");
+        miMustang.setModelo(2010);
+        miMustang.setColor(Color.yellow);
+        System.out.println(miMustang);
+        
+    
     }
     
 }
